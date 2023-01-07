@@ -3,7 +3,7 @@ window.onload = function() {
     var context = canvas.getContext('2d');
   
    // Set the canvas size
-canvas.width = 360;
+canvas.width = 125;
 canvas.height = 70;
 
 // Draw the background

@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../styles/styles.css">
-        
         <script src="../scripts/scripts.js"></script>
+        <script src="../scripts/canvas.js"></script>
+        <script src="../scripts/geolocation.js"></script>
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -22,8 +23,22 @@
 
         <header class="header">
             
-            <div class="gymName"> Super Gym </div>
-        <div class="bar">
+            <!-- <div class="gymName"> Super Gym </div> -->
+            <div class="canvasBox"> 
+                <div class="top-text-left">
+                    Let the gains 
+                </div>
+                <div class="canvas-container">
+                    <canvas id="myCanvas" width="100" height="100"></canvas>
+                </div>
+                <div class="top-text-right">
+                    B E G I N !
+                </div>
+            </div>
+                
+        
+    
+            <div class="bar">
             <a href="../html/index.html" > Home </a>
             <div > About </div>
             <a href="../html/Pricing.html" > Pricing </a>
@@ -32,15 +47,7 @@
             <div > Accesories </div>
             <a href="../html/calendar.html"> calendar</a>
         </div>
-        <div class="top-text-left">
-            Let the gains 
-        </div>
-        <div class="canvas-container">
-            <canvas id="myCanvas" width="200" height="100"></canvas>
-          </div>
-        <div class="top-text-right">
-            B E G I N !
-        </div>
+        
           
         <div class="socials">
             <img src="../resources/instagram.png" width="20" height="20">
@@ -54,9 +61,8 @@
     
     <div class="leftBox"> 
         <div class="mainText"> <span style="color: #A13333;">CHALLENGE </span> <br> YOUR  LIMITS </div>
-        <div class="infoText ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec malesuada metus. Aliquam at leo sit amet turpis mattis fermentum vitae eu nibh. Phasellus et turpis augue. Suspendisse potenti. Sed aliquam, felis non suscipit faucibus, libero elit scelerisque massa, eget tincidunt ex neque vel nulla. Aliquam erat volutpat. Cras pharetra bibendum sapien, in finibus nulla iaculis aliquet.
-
-Maecenas at tellus condimentum purus feugiat tincidunt. Aenean venenatis consequat venenatis. Pellentesque id dolor nisl. Morbi ac fringilla metus. Sed posuere dapibus dui, faucibus scelerisque nisi porta eu. Phasellus in urna nibh. Nam pulvinar convallis odio sit amet faucibus. Etiam interdum quam ut quam fermentum ultrices. </div>
+        <div class="infoText ">Welcome to SuperGym! We are a state-of-the-art fitness facility located in the heart of Bucharest. Our goal is to provide a welcoming and inclusive space where people of all fitness levels can work towards their health and wellness goals.
+            We offer a wide range of equipment and classes to suit every fitness need, including cardio machines, weight training equipment, group fitness classes, and personal training services. Our experienced staff is always on hand to offer support and guidance, whether you're just starting your fitness journey or looking to take your training to the next level. </div>
         <div class="textButtons">
             <button type="button" class="btn btn-primary my-3  " > Get started </button>
             <button type="button" class="btn btn-outline-info my-3" > Read more</button>
@@ -79,7 +85,12 @@ Maecenas at tellus condimentum purus feugiat tincidunt. Aenean venenatis consequ
     </div>
 </div>
 
+        <footer class="footer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.2253778640666!2d26.10351535131514!3d44.42853890986289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff16033c363b%3A0x61ceb369d4416f5c!2sSalsafit%20Gym!5e0!3m2!1sen!2sro!4v1673104476495!5m2!1sen!2sro" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </footer>
 
     </body>
-    <script src="../scripts/canvas.js"></script>
+
+    
+    
 </html>
