@@ -11,3 +11,9 @@ function openFullImg(pic){
 function closeFullImg(){
     imgBox.style.display = "none";
 }
+
+document.addEventListener('keydown', (event) => {
+    if (event.key == "Escape") {
+      imgBox.style.display = "none";
+    }
+  });
