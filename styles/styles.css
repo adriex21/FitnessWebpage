@@ -119,8 +119,7 @@ canvas{
    
 }
 
-
-video{
+#myVideo{
     /* margin-top: 20%; */
     width: 100%;
     border-radius: 3%;
@@ -243,4 +242,28 @@ body {
     font-size: 30px;
     color: aliceblue;
     cursor: pointer;
+  }
+
+  #backgroundVideo {
+    
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    height: 130vh;
+    object-fit: fill;
+   
+    
+  }
+
+  #gymMembership {
+    background: linear-gradient(to right, #ffff, #0000FF);
+    border: 1px solid black;
+
+  }
+
+  .memberships{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
   }
