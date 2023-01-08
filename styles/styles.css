@@ -63,8 +63,22 @@ body, ul, ol, dl {
     gap: 25px;
     filter: invert();
     align-items: center;
-    
-    
+ 
+}
+
+#instagram:hover{
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+
+#facebook:hover{
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+
+#twitter:hover{
+  transition: 0.5s;
+  transform:scale(1.5);
 }
 .body{
     background: linear-gradient(to right,#000000 30.85%,#A13333 85.5%);
@@ -95,6 +109,7 @@ body, ul, ol, dl {
     border: 3px solid green;
 }
 
+
 .rightBox{
 
     border: 3px solid green;
@@ -121,6 +136,7 @@ body, ul, ol, dl {
     width: 100%;
     border-radius: 3%;
     box-shadow: inset;
+    filter: grayscale(100%);
 }
 
 body {
@@ -239,6 +255,19 @@ body {
     font-size: 30px;
     color: aliceblue;
     cursor: pointer;
+  }
+
+  #gym1{
+    filter:blur(1px);
+    }
+  #gym2{
+    filter:sepia(100%);
+  }
+  #gym3{
+    filter:contrast(150%) brightness(100%);
+  }
+  #gym4{
+    filter:hue-rotate(120deg);
   }
 
   #backgroundVideo {

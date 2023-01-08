@@ -54,8 +54,10 @@ function drawCard3() {
     }
     
     function subscription(){
+        
         alert("You bought the Basic subscription! You are a member of SuperGym Now!"
         );
+        
     }
     function subscription2(){
         alert("You bought the Gold subscription! You are a member of SuperGym Now!"

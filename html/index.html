@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../styles/styles.css">
-        <script src="../scripts/scripts.js"></script>
+        <script src="../scripts/buttons.js"></script>
         <script src="../scripts/canvas.js"></script>
         <script src="../scripts/geolocation.js"></script>
         
@@ -23,7 +23,7 @@
 
         <header class="header">
             
-            <!-- <div class="gymName"> Super Gym </div> -->
+            
             <div class="canvasBox"> 
                 <div class="top-text-left">
                     Let the gains 
@@ -42,15 +42,16 @@
             <a href="../html/index.html" > Home </a>
             <a href="../html/Pricing.html" > Pricing </a>
             <a href="../html/gallery.html" > Gallery </a>
-            <a href="contact" > Contact </a>
+            <a href="#contact" > Contact </a>
+            <a href="../html/surprise.html"> Surprise</a>
             
         </div>
         
           
         <div class="socials">
-            <img src="../resources/instagram.png" width="20" height="20">
-            <img src="../resources/facebook.png" width="20" height="20">
-            <img src="../resources/twitter.png" width="20" height="20">
+            <img src="../resources/instagram.png" onclick="openInstagram()" id="instagram" width="20" height="20">
+            <img src="../resources/facebook.png" onclick="openFacebook()" id="facebook" width="20" height="20">
+            <img src="../resources/twitter.png" onclick="openTwitter()" id="twitter" width="20" height="20">
             
         </div>
     </header>
@@ -59,11 +60,12 @@
     
     <div class="leftBox"> 
         <div class="mainText"> <span style="color: #A13333;">CHALLENGE </span> <br> YOUR  LIMITS </div>
-        <div class="infoText ">Welcome to SuperGym! We are a state-of-the-art fitness facility located in the heart of Bucharest. Our goal is to provide a welcoming and inclusive space where people of all fitness levels can work towards their health and wellness goals.
-            We offer a wide range of equipment and classes to suit every fitness need, including cardio machines, weight training equipment, group fitness classes, and personal training services. Our experienced staff is always on hand to offer support and guidance, whether you're just starting your fitness journey or looking to take your training to the next level. </div>
-        <div class="textButtons">
-            <button type="button" class="btn btn-primary my-3  " > Get started </button>
-            <button type="button" class="btn btn-outline-info my-3" > Read more</button>
+        <div class="infoText" >Welcome to SuperGym! We are a state-of-the-art fitness facility located in the heart of Bucharest. Our goal is to provide a welcoming and inclusive space where people of all fitness levels can work towards their health and wellness goals.
+            We offer a wide range of equipment and classes to suit every fitness need, including cardio machines, weight training equipment, group fitness classes, and personal training services. Our experienced staff is always on hand to offer support and guidance, whether you're just starting your fitness journey or looking to take your training to the next level. <br> </div>
+        <p id="infoText"> </p>
+            <div class="textButtons">
+            <button type="button" class="btn btn-primary my-3" onclick="getStarted()" id="getStarted" > Get started </button>
+            <button type="button" class="btn btn-outline-info my-3" onclick="readMore()" > Read more</button>
         </div>
         
     </div>
@@ -76,7 +78,7 @@
         </video>    
        
 
-        <!-- <canvas id="videoCanvas"> </canvas> -->
+     
         
         
 
