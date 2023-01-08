@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../styles/styles.css">
-        <script src="../scripts/scripts.js" defer></script>
+        <script src="../scripts/pricing.js" defer></script>
         <script src="../scripts/canvas.js" defer> </script>
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -19,7 +19,7 @@
     </head>
 
     
-    <body class="body"> 
+    <body class="body" id="body1"> 
 
         <header class="header">
             
@@ -58,7 +58,21 @@
     </header>
 
    <div class="memberships">
-    <canvas id="gymMembership" width="200" height="100"></canvas>
+    <div class="card1"> 
+        <canvas id="gymMembership" width="300" height="400"></canvas>
+        <button type="button" id="button1" onclick="subscription()" > Select membership</button>
+    </div>
+
+    <div class="card1"> 
+        <canvas id="gymMembership2" width="300" height="400"></canvas>
+        <button type="button" id="button2" onclick="subscription2()">Select membership </button>
+    </div>
+    <div class="card1"> 
+        <canvas id="gymMembership3" width="300" height="400"></canvas>
+        <button type="button" id="button3" onclick="subscription3()">Select membership</button>
+    </div>
+    
+    
    </div>
     
 
